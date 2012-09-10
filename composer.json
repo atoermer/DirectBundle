@@ -1,0 +1,20 @@
+{
+    "name": "atoermer/DirectBundle",
+    "description": "DirectBundle is an implementation of ExtDirect specification for symfony2",
+    "keywords": ["extjs","symfony2"],
+    "type": "symfony-bundle",
+    "license": "Apache",
+    "authors": [
+        {
+            "name": "Andreas Toermer",
+            "email": "andreas.toermer.85@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/framework-bundle": "2.*"
+    },
+    "autoload": {
+        "psr-0": { "atoermer\\DirectBundle": "" }
+    },
+    "target-dir": "atoermer/DirectBundle"
+}
